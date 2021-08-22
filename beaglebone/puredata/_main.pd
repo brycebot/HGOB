@@ -96,7 +96,7 @@
 #X msg 769 -56 0.05;
 #N canvas 0 25 1610 836 breath 0;
 #X obj 510 138 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 9077 1;
+-1 -1 132 1;
 #X obj 495 193 - 1;
 #X obj 494 224 abs;
 #X obj 832 423 snapshot~;
@@ -365,7 +365,7 @@
 #X connect 18 0 20 0;
 #X connect 19 0 18 0;
 #X restore 352 -52 pd pumpControl;
-#N canvas 1801 34 1790 971 chordSequence 1;
+#N canvas 1801 34 1790 971 chordSequence 0;
 #X obj 51 469 osc~;
 #X obj 116 464 osc~;
 #X obj 182 461 osc~;
@@ -760,7 +760,7 @@
 #X obj 895 245 inlet;
 #X obj 1049 490 osc~;
 #X obj 1406 296 hsl 128 15 0 6 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 1815 1;
+-1 -1 26 1;
 #X floatatom 1469 315 5 0 0 0 - - -;
 #X obj 1262 338 <= 1;
 #X obj 1314 343 > 1;
@@ -1609,24 +1609,24 @@ a threshold is reached;
 #X connect 132 0 135 0;
 #X connect 134 0 63 3;
 #X connect 135 0 136 0;
+#X connect 135 0 187 0;
 #X connect 136 0 133 0;
-#X connect 136 0 187 0;
 #X connect 137 0 61 1;
 #X connect 138 0 137 0;
 #X connect 140 0 141 0;
+#X connect 140 0 188 0;
 #X connect 141 0 158 0;
-#X connect 141 0 188 0;
 #X connect 142 0 143 0;
 #X connect 143 0 144 0;
+#X connect 143 0 189 0;
 #X connect 144 0 179 0;
-#X connect 144 0 189 0;
 #X connect 145 0 146 0;
 #X connect 146 0 147 0;
+#X connect 146 0 190 0;
 #X connect 147 0 183 0;
-#X connect 147 0 190 0;
 #X connect 148 0 149 0;
+#X connect 148 0 191 0;
 #X connect 149 0 162 0;
-#X connect 149 0 191 0;
 #X connect 150 0 72 0;
 #X connect 151 0 157 1;
 #X connect 152 0 157 0;
